@@ -1,0 +1,450 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Style the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    color: #3C354F;
+    padding: 10px 20px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+/* Style the logo and logo text */
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left img {
+    width: 86.041px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+.logo-text {
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+#text {
+    color: #FF42A5;
+}
+
+/* Style the navigation links */
+.navbar-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* style the social links */
+
+#social-link {
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 15px;
+    background: rgba(68, 68, 69, 0.1);
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    /* justify-content: space-around; 
+    align-items: center; */
+
+}
+
+.banner-text {
+    background: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    width: 880px;
+    height: 527px;
+}
+
+#title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+#heading {
+    font-size: 95px;
+    font-weight: 900;
+    font-family: 'Work Sans';
+    text-transform: uppercase;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-text {
+    padding-top: 160px;
+    padding-left: 190px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #534C64;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+
+}
+
+.icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.primary-btn {
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+
+.secondary-btn {
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #4EC5F7 13.13%, #4EC5F7 87.94%));
+}
+
+/* gamer styles */
+.gamer {
+    display: flex;
+    padding-left: 130px;
+    padding-right: 130px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.gamer h3 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-container {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.gamer-btn {
+    color: #FFF;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 15px;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    border: none;
+    text-transform: uppercase;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+
+.gamer h4 {
+    color: #534C64;
+    text-align: right;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* games styles */
+.games {
+    margin-top: 70px;
+}
+
+.games h3 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#games-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.games p {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #534C64;
+}
+
+/* grid layout styles */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 240px;
+    margin-left: 240px;
+    border: none;
+    margin-top: 50px;
+}
+
+/* grid containers styles */
+.grid-container p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.grid-container {
+    position: relative;
+}
+
+.grid-container:hover .overlay {
+    width: 338px;
+    height: 395px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+    opacity: 1;
+    border-radius: 16px;
+    border: 4px solid var(--Linear, #FF42A5);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: lightgray 50%;
+}
+
+.play-icon {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grid-layout p {
+    text-align: initial;
+}
+
+/* instant play  styles */
+.instant-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12%;
+    margin-top: 70px;
+}
+
+.play-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-title-span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-text {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.img-position {
+    position: relative;
+    width: 300px;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 60%;
+    left: -35%;
+    width: 318.5px;
+    height: 365.083px;
+}
+
+.another-instant-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35%;
+    margin-top: 70px;
+}
+
+.another-img-position {
+    position: relative;
+    width: 300px;
+}
+
+.another-overlay-image {
+    position: absolute;
+    top: 60%;
+    right: -180%;
+    width: 318.5px;
+    height: 365.083px;
+}
+
+/* game category */
+.game-category {
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    height: 213.5px;
+    width: 1, 920px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.new-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    height: 213.5px;
+    width: 1, 920px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.flex-game-category {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.flex-game-category:hover {
+    width: 248px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1.5px solid var(--Linear, #FF42A5);
+    background: #FFF;
+}
+
+.flex-game-category p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer {
+    width: 1900px;
+    height: 636px;
+    background: #0B0223;
+}
+footer span{
+    color: white;
+}
+.footer-logo{
+    text-align: center;
+}
+
+
+/* @media query screen 768px */
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .banner {
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .banner-img img {
+        width: 100%;
+        background-size: cover;
+    }
+}
